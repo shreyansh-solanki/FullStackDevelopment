@@ -52,7 +52,7 @@
 .section2-main-content {
   background-color: lightslategray;
   height: 50vh;
-  width: 48.5%;
+  width: 48%;
   float: left;
   display: flex;
   justify-content: center;
@@ -63,19 +63,20 @@
   margin-left: 10px;
 }
 
-.article {
-  width: 48.5%;
-  height: 50vh;
+.section2-article {
+  width: 48%;
+  height: 50%;
   float: right;
+  margin-top: 20px;
+  margin-right: 10px;
 }
 
 .section2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 29.9%;
-  margin-top: 20px;
-  margin-right: 10px;
+  height: 14.9vh;
+  margin-bottom: 20px;
   background-color: cadetblue;
   color: #fff;
   font-size: 1.2em;
@@ -89,8 +90,9 @@
 }
 
 .grid {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   width: 100%;
 }
 
