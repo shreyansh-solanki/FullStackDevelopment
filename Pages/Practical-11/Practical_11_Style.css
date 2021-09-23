@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@900&family=Open+Sans&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +11,7 @@ li {
 }
 
 .container {
-  height: 100%;
+  overflow: hidden;
 }
 
 .container h2 {
@@ -29,7 +29,8 @@ footer {
 .content {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
+  font-size: 1.2em;
 }
 .about {
   display: block;
@@ -124,7 +125,7 @@ hr {
   margin-right: 20px;
   font-size: 1.8em;
   border-radius: 50%;
-  padding: 10px;
+  line-height: 50px;
   height: 50px;
   width: 50px;
 }
@@ -156,5 +157,5 @@ hr {
   background-color: darkkhaki;
   height: 50px;
   width: 100%;
-  margin-top: 10%;
+  margin-top: 3.5%;
 }
