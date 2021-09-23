@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&family=Open+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  height: 100%;
+}
+
+.container h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: darkgray;
+  height: 100%;
+  color: crimson;
+  margin-top: 20px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.about {
+  display: block;
+  width: 400px;
+  margin: 10px;
+}
+.about h3 {
+  font-family: "Gemunu Libre", sans-serif;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.categories {
+  display: block;
+  margin: 10px;
+}
+
+.categories h3 {
+  font-family: "Gemunu Libre", sans-serif;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.categories li {
+  margin: 10px 0 0 5px;
+}
+
+.quick-link {
+  display: block;
+  margin: 10px;
+}
+
+.quick-link h3 {
+  font-family: "Gemunu Libre", sans-serif;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.quick-link li {
+  margin: 10px 0 0 5px;
+}
+
+.contact {
+  margin: 10px;
+}
+
+.contact h3 {
+  font-family: "Gemunu Libre", sans-serif;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.contact li {
+  margin: 10px 0 0 5px;
+}
+
+.register {
+  margin: 10px;
+  text-align: center;
+  margin-top: 180px;
+}
+
+.register span {
+  font-size: 1.3em;
+  margin-right: 10px;
+}
+
+.register a {
+  text-decoration: none;
+  color: #fff;
+  background-color: red;
+  padding: 10px 10px;
+  border-radius: 20px;
+}
+
+.register a:hover {
+  transition: 0.3s ease-in-out;
+  background-color: darkred;
+}
+
+hr {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.icons {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.icons i {
+  margin-right: 20px;
+  font-size: 1.8em;
+  border-radius: 50%;
+  padding: 10px;
+  height: 50px;
+  width: 50px;
+}
+
+.icons i:nth-child(1) {
+  background-color: #4267b2;
+  color: #fff;
+}
+
+.icons i:nth-child(2) {
+  background-color: purple;
+  color: #fff;
+}
+
+.icons i:nth-child(3) {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+.icons i:nth-child(4) {
+  background-color: #1da1f2;
+  color: #fff;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: darkkhaki;
+  height: 50px;
+  width: 100%;
+  margin-top: 10%;
+}
