@@ -1,0 +1,101 @@
+/* fal fa-file-spreadsheet
+fas fa-comment-plus
+fab fa-telegram
+fas fa-tachometer-alt-slow
+fas fa-check
+fas fa-times */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+table,
+th,
+td {
+  border-collapse: collapse;
+  text-align: center;
+  width: 700px;
+  border-right: 3px solid #fff;
+}
+
+tr:nth-child(1) th {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+tr:nth-child(2) {
+  height: 90px;
+  font-size: 1.7em;
+  color: blueviolet;
+}
+
+tr:nth-child(2) i {
+  margin-right: 10px;
+}
+
+tr:nth-child(3) {
+  height: 40px;
+}
+
+tr:nth-child(2) th:nth-child(1),
+td:nth-child(1) {
+  background-color: rgba(87, 165, 139, 0.712);
+  height: 35px;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+  background-color: rgba(132, 173, 66, 0.623);
+  height: 35px;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+  background-color: rgba(100, 243, 33, 0.712);
+  height: 35px;
+}
+
+th:nth-child(4),
+td:nth-child(4) {
+  background-color: rgba(140, 13, 199, 0.342);
+  height: 35px;
+}
+
+tr:nth-child(3) {
+  font-size: 20px;
+  color: green;
+}
+
+tr:nth-child(2n + 1) td {
+  background-color: rgba(195, 240, 184, 0.637);
+}
+
+tr:last-child {
+  height: 60px;
+}
+
+a {
+  padding: 13px 25px 13px 25px;
+  border-radius: 10px;
+  background-color: blueviolet;
+  cursor: pointer;
+  color: #fff;
+}
+
+.fa-check {
+  color: green;
+}
+
+.fa-times {
+  color: #ff0000;
+}
