@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practical 14</title>
+    <style>
+      body {
+        background-color: rgba(22, 136, 98, 0.527);
+        color: #fff;
+      }
+      .container {
+        text-align: center;
+      }
+      .content {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+      }
+
+      h2 {
+        font-size: 30px;
+      }
+
+      button {
+        padding: 25px 30px;
+        margin: 25px 60px;
+        border: none;
+        color: #fff;
+
+        border-radius: 5px;
+        font-size: 25px;
+        font-weight: 900;
+        cursor: pointer;
+      }
+      button:hover {
+        opacity: 0.8;
+      }
+      p {
+        font-size: 40px;
+        margin-top: 45px;
+        color: #fff;
+      }
+      button:first-child {
+        background-color: red;
+      }
+
+      button:last-child {
+        background-color: rgb(12, 174, 202);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Counter</h2>
+      <div class="content">
+        <button class="dec" onclick="minus()">-</button>
+        <p>0</p>
+        <button class="inc" onclick="plus()">+</button>
+      </div>
+    </div>
+    <script>
+      var x = 0;
+      var decbtn = document.getElementsByClassName("dec")[0];
+      var incbtn = document.getElementsByClassName("inc")[0];
+      var z = document.getElementsByTagName("p");
+      function minus() {
+        if (x === 0) {
+          decbtn.disabled = true;
+          decbtn.style.backgroundColor = "red";
+        } else {
+          x = x - 1;
+          z[0].innerHTML = x;
+          decbtn.style.backgroundColor = "rgb(151, 33, 230)";
+        }
+        console.log("dec- " + x);
+      }
+      var x = 0;
+      function plus() {
+        x = x + 1;
+        z[0].innerHTML = x;
+        console.log("inc " + x);
+        decbtn.style.backgroundColor = "rgb(151, 33, 230)";
+        decbtn.disabled = false;
+      }
+    </script>
+  </body>
+</html>
